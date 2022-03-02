@@ -1,0 +1,31 @@
+.gr{
+    color: rgba(128, 128, 128, 0.575);
+}
+
+.bo{
+    border-style: dotted;
+    border-bottom-color: grey;
+    position: relative;
+    left: 500px;
+}
+
+.ma{
+    float:right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.pa{
+    padding-left: 355px;
+    width: 111px;
+    height: 80px;
+}
+
+.di{
+    display: flex;
+    position: relative;
+    left: 600px;
+    bottom: 30px;
+}

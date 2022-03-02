@@ -1,0 +1,39 @@
+.co{
+    color: rgb(201, 232, 250);
+    position: relative;
+    left: 700px;
+}
+
+.cc{
+    color: lightsteelblue;
+    padding-left: 500px;
+    padding-top: 30px;
+}
+
+.bo{
+    border-spacing: 50px;
+    border-style: groove;
+    border-color: rgb(201, 232, 250);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 527px;
+}
+
+.pp{
+    position: relative;
+    left: 643px;
+    top: 20px;
+}
+
+.hw{
+    height: 60%;
+    width: 60%;
+    display: flex;
+    position: relative;
+    left: 250px;
+}
+
+.ff{
+    float: initial;
+    color: rgb(253, 244, 109);
+}

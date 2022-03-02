@@ -1,0 +1,33 @@
+.po{
+    position: relative;
+    left: 300px;
+    bottom: 300px;
+    top: 300px;
+    color: gold;
+}
+
+.bo{
+    border-style: ridge;
+    border-color: gold;
+    position: relative;
+    left: 1400px; 
+}
+
+.pa{
+    padding-left: 1000px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ma{
+    margin-top: 100px ;
+    margin-bottom: 100px;
+    margin-left: 500px;
+}
+
+.hw{
+    float: inline-end;
+    width: 90px;
+    height: 50px;
+    display: block;
+}

@@ -1,0 +1,29 @@
+.bb{
+    border-style: groove;
+    border-color: grey;
+}
+
+.pp{
+    position:absolute;
+    right: 50px;
+}
+
+.pad{
+    padding-top: 20px;
+    padding-left: 250px;
+    padding-bottom: 20px;
+}
+
+.mm{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: -10px;
+    display: inline;
+}
+
+.fl{
+    float: right;
+    height: 80%;
+    width: 18%;
+    color: rgb(167, 167, 167);
+}

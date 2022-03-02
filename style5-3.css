@@ -1,0 +1,80 @@
+@keyframes one{
+    0%{border-color: rgb(210, 250, 101);}
+    50%{border-color: lightgrey;}
+    100%{border-color:chartreuse}
+}
+
+.bb{
+    border-style: groove;
+    border-color: grey;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 30px;
+    animation-name: one;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.pp{
+    position:absolute;
+    right: 50px;
+    font-size: 20px;
+    letter-spacing: 30px;
+}
+
+.pad{
+    padding-top: 54px;
+    padding-left: 272px;
+    padding-bottom: 8px;
+    line-height: 100px;
+    font-family: monospace;
+    text-align: center;
+    font-weight: 500;
+}
+
+@keyframes two{
+    0%{position: relative; left: 200px;}
+    100%{position: relative;right:100px}
+}
+.mm{
+    margin-top: 49px;
+    margin-bottom: 9px;
+    margin-left: 52px;
+    font-family: monospace;
+    text-align:start;
+    animation-name: two;
+    animation-duration: 3s;
+    animation-delay: -1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes three{
+    0%{color: chartreuse;}
+    50%{color: darkgray;}
+    100%{color: rgb(167, 167, 167);}
+}
+.fl{
+    float: right;
+    height: 80%;
+    width: 52%;
+    color: rgb(167, 167, 167);
+    font-family: monospace;
+    animation-name: three;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes four{
+    0%{font-size: 20px;}
+    25%{font-size: 50px;}
+    50%{font-size: 70px;}
+    100%{font-size: 100px;}
+}
+.ll{
+    font-family: monospace;
+    text-transform:lowercase;
+    animation-name: four;
+    animation-duration: 15s;
+    }

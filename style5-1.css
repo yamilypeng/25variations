@@ -1,0 +1,90 @@
+
+.f{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: lightpink;
+    position: relative;
+    left: 800px;
+    top: 30px;
+
+}
+
+.ff{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-shadow: 2px 2px lightgoldenrodyellow;
+}
+
+
+
+.color {
+    border-style: dotted;
+    border-color: lightpink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    line-height: 10px;
+}
+
+@keyframes one{
+    0%{left: 300px;}
+    25%{left: 300px;top: 20px;}
+    50%{left: 300px;bottom: 40px;}
+    100%{left: 300px;}
+}
+
+.po{
+    position:relative;
+    bottom: 30px;
+    left: 50px;
+}
+.padd{
+    padding-left: 300px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 900;
+}
+
+.mar{
+    float: inline-end;
+    margin-top: -205px;
+    margin-left: 200px;
+    font-weight: 200;
+    text-align:right;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color:  lightpink;
+    border-style: dotted;
+}
+    
+
+.hei{
+    position: relative;
+    top: 30px;
+    bottom: 30px;
+    left: 200px;
+    color: lightpink;
+}
+
+.wid{
+    width: 150px;
+    height: 50%;
+    text-align: center;
+    letter-spacing: 10px;
+    position: relative;
+    left: 80px;
+    animation-name: one;
+    animation-duration: 4s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+
+.ll{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: lowercase;
+    position: relative;
+    top: 172px;
+}

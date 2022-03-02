@@ -1,0 +1,30 @@
+@keyframes wh{
+    0%{background-color: white;}
+    100%{background-color: whitesmoke;}
+}
+
+.wh{
+    animation-name: wh;
+    animation-duration: 5s;
+    background-color: whitesmoke;
+
+}
+.ti{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.po{
+    position: relative;
+    top: 50px;
+}

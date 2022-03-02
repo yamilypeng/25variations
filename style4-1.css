@@ -1,0 +1,59 @@
+.f{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.ff{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+
+.color {
+    border-style: dotted;
+    border-color: lightpink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    line-height: 10px;
+}
+
+.padd{
+    padding-left: 500px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.mar{
+    float: inline-end;
+    margin-top: -205px;
+    margin-left: 200px;
+    font-weight: 200;
+    text-align:right;
+}
+    
+
+.hei{
+    position: relative;
+    top: 30px;
+    bottom: 30px;
+    left: 200px;
+    color: lightpink;
+}
+
+.wid{
+    width: 150px;
+    height: 50%;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.ll{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: lowercase;
+    position: relative;
+    top: 172px;
+}

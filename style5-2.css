@@ -1,0 +1,99 @@
+@keyframes three{
+    0%{background-color:  white;}
+    100%{background-color:  black;}
+}
+
+
+.al{
+    text-align: center;
+    line-height: 30px;
+    font-family:fantasy;
+    animation-name: three;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.we{
+    font-weight: bolder;
+}
+.po{
+    position: relative;
+    left: 300px;
+    bottom: 300px;
+    top: 300px;
+    color: gold;
+}
+
+.le{
+    letter-spacing: 20px;
+    position: relative;
+    bottom: 25px;
+}
+
+
+
+.bo{
+    border-style: ridge;
+    border-color: gold;
+    position: relative;
+    left: 1200px;
+    
+}
+
+@keyframes two{
+    0%{color: mediumslateblue;}
+    25%{color: lemonchiffon;}
+    50%{color: mediumpurple;}
+    75%{color:lightyellow;}
+    100%{color: lightsteelblue;}
+}
+.pa{
+    padding-right: 1000px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 30px;    
+    animation-name: two;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.m{
+    position: relative;
+    left: 550px;
+}
+.ma{
+    margin-top: 100px ;
+    margin-bottom: 100px;
+    margin-left: 500px;
+}
+
+@keyframes move{
+    0%{color: lightsteelblue;}
+    25%{color: lightyellow;}
+    50%{color: mediumpurple;}
+    75%{color:lemonchiffon;}
+    100%{color: mediumslateblue;}
+}
+.hw{
+    float: inline-end;
+    width: 110px;
+    height: 50px;
+    letter-spacing: 30px;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.tt{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: mediumpurple;
+}
+
+.mo{
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

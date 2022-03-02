@@ -1,0 +1,141 @@
+@keyframes one{
+    0%{color: rgb(109, 109, 109);}
+    25%{color: rgba(94, 93, 93, 0.575);}
+    50%{color: silver;}
+    100%{color: white;}
+}
+.ti{
+    font-weight: bolder;
+    animation-name: one;
+    animation-name: two;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes two{
+    0%{position: relative; left: 100px;}
+    50%{position: relative;left: 500px;}
+    100%{position: relative;left: 1000px;}
+}
+
+.two{
+    animation-name: two;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.ty{
+    font-family: 'Comfortaa', cursive;
+    color: rgb(109, 109, 109);
+    background-blend-mode: luminosity;
+    background-color: lightgoldenrodyellow;
+}
+
+.po{
+    position: relative;
+    top: 20px;
+    left: 900px;
+}
+
+@keyframes three{
+    0%{color: white;}
+    25%{color: lightgrey;}
+    50%{color: darkgray;}
+    100%{color: black;}
+}
+.gr{
+    font-size: 60px;
+    font-family:'Syne Mono', monospace;
+    animation-name:three;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.bo{
+    border-bottom:dotted;
+    border-bottom-color: grey;
+    position: relative;
+    left: 500px;
+}
+
+@keyframes four{
+    0%{position: relative;top: 70px;}
+    25%{position: relative;top: 100px;}
+    50%{position: relative;top: 300px;}
+    100%{position: relative;top: 600px;}
+}
+.ma{
+    float:right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    font-weight: lighter;
+    line-height: 40px;
+    text-align: end;
+    animation-name: four;
+    animation-duration: 4s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+}
+
+.rr{
+    color: rgba(94, 93, 93, 0.575);
+    position: relative;
+    right: 149px;
+    font-size: 60px;
+}
+
+@keyframes five{
+    0%{letter-spacing: 3px;}
+    25%{letter-spacing: 6px;}
+    50%{letter-spacing: 10px;}
+    100%{letter-spacing: 20px;}
+}
+.in{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    animation-name: five;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.co{
+    font-weight: lighter;
+    text-transform: lowercase;
+}
+
+.wh{
+    position: relative;
+    left: 800px;
+}
+
+@keyframes five{
+    0%{letter-spacing: 5px;}
+    25%{letter-spacing: 10px;}
+    50%{letter-spacing: 30px;}
+    100%{letter-spacing: 50px;}
+}
+.pa{
+    padding-left: 100px;
+    width: 30px;
+    height: 138px;
+    text-align: center;
+    letter-spacing: 30px;
+    animation-name: five;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.di{
+    display: flex;
+    position: relative;
+    left: 670px;
+    bottom: 15px;
+}

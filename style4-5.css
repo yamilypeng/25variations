@@ -1,0 +1,81 @@
+.fa{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.co{
+    color: rgb(201, 232, 250);
+    position: relative;
+    left: 1200px;
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.po{
+    position:relative;
+    bottom: 30px;
+    left: 200px;
+}
+.on{
+    position: relative;
+    bottom: 30px;
+    font-weight: 600;
+}
+
+.tw{
+    padding-left: 100px;
+    letter-spacing: 10px;
+}
+
+.th{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 10px;
+}
+.cc{
+    color: lightsteelblue;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.bo{
+    border-spacing: 50px;
+    border-style: groove;
+    border-color: rgb(201, 232, 250);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 450px;
+    letter-spacing: 10px;
+}
+
+.lh{
+    line-height: 50px;
+    padding-left: 400px;
+    text-align: center;
+    color:rgb(176, 225, 253)
+}
+.pp{
+    position: relative;
+    left: 600px;
+    bottom: 80px;
+}
+
+.hw{
+    height: 60%;
+    width: 60%;
+    position: relative;
+    left: 300px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.ff{
+    float: initial;
+    color: rgb(255, 243, 81);
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+
+.ll{
+    padding-left: 300px;
+}

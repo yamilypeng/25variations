@@ -1,0 +1,44 @@
+.bb{
+    border-style: groove;
+    border-color: grey;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 30px;
+}
+
+.pp{
+    position:absolute;
+    right: 50px;
+    font-size: 20px;
+    letter-spacing: 30px;
+}
+
+.pad{
+    padding-top: 72px;
+    padding-left: 290px;
+    padding-bottom: 20px;
+    line-height: 60px;
+    font-family: monospace;
+    text-align: center;
+}
+
+.mm{
+    margin-top: 49px;
+    margin-bottom: 9px;
+    margin-left: 52px;
+    font-family: monospace;
+    text-align:start;
+}
+
+.fl{
+    float: right;
+    height: 80%;
+    width: 46%;
+    color: rgb(167, 167, 167);
+    font-family: monospace;
+}
+
+.ll{
+    font-family: monospace;
+    text-transform:lowercase;
+}
